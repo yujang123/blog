@@ -252,7 +252,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-10-12 18:12:50" itemprop="dateModified" datetime="2019-10-12T18:12:50+08:00">2019-10-12</time>
+                <time title="修改时间：2019-10-12 18:39:51" itemprop="dateModified" datetime="2019-10-12T18:39:51+08:00">2019-10-12</time>
               </span>
             
           
@@ -300,7 +300,7 @@
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line">        <span class="keyword">new</span> Vue(&#123;</span><br><span class="line">            data: &#123;</span><br><span class="line">                one: <span class="number">1</span></span><br><span class="line">            &#125;,</span><br><span class="line">            <span class="comment">// 当对象实例化创建后调用该function方法</span></span><br><span class="line">            created: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 浏览器控制台中会输出 1</span></span><br><span class="line">                <span class="built_in">console</span>.log(<span class="keyword">this</span>.one)</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
 <p>同时官方提示钩子函数或选项属性\回调上不要使用<strong>箭头函数</strong>,比如 <code>created:()=&gt;console.log(this.xxx)</code> 或 <code>vm.$watch(&#39;a&#39;,newValue=&gt;this.method())</code>.因为箭头函数并没有 <code>this</code>,所以可能会导致 <code>undefined</code> 或 <code>not found</code> 等错误</p>
 <h3 id="生命周期图示"><a href="#生命周期图示" class="headerlink" title="生命周期图示"></a>生命周期图示</h3><p>图源于 <a href="https://cn.vuejs.org/v2/guide/instance.html#%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%9B%BE%E7%A4%BA" target="_blank" rel="noopener">官方文档</a></p>
-<p><img src="images/vue/lifecycle.png" alt="生命周期"></p>
+<p><img src="/images/vue/lifecycle.png" alt="生命周期"></p>
 
         
       
@@ -515,7 +515,7 @@
 <p><a href="https://cn.vuejs.org/js/vue.min.js" target="_blank" rel="noopener">生产版本</a> 生产版本删除了警告,并压缩了js,使得大小进一步的缩减(生产环境推荐使用此版本)</p>
 <h3 id="NPM"><a href="#NPM" class="headerlink" title="NPM"></a>NPM</h3><hr>
 <p>在用 Vue 构建大型应用时推荐使用 NPM 安装。NPM 能很好地和诸如 webpack 或 Browserify 模块打包器配合使用。同时 Vue 也提供配套工具来开发单文件组件。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> 最新稳定版</span><br><span class="line"><span class="meta">$</span> npm install vue</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 最新稳定版</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm install vue</span></span><br></pre></td></tr></table></figure>
 <h3 id="不同构建版本的区别"><a href="#不同构建版本的区别" class="headerlink" title="不同构建版本的区别"></a>不同构建版本的区别</h3><hr>
 <table>
 <thead>
